@@ -35,7 +35,7 @@ import UIKit
     @IBOutlet open weak var touchIDButton: UIButton?
     @IBOutlet open weak var placeholdersX: NSLayoutConstraint?
     
-    open var successCallback: ((_ lock: PasscodeLockType) -> Void)?
+    open var successCallback: (() -> Void)?
     open var dismissCompletionCallback: (()->Void)?
     open var animateOnDismiss: Bool
     open var notificationCenter: NotificationCenter?
@@ -237,7 +237,7 @@ import UIKit
         deleteSignButton?.isEnabled = true
         animatePlaceholders(placeholders, toState: .inactive)
         dismissPasscodeLock(lock, completionHandler: { [weak self] _ in
-            self?.successCallback?(lock)
+            self?.successCallback?()
         })
     }
     

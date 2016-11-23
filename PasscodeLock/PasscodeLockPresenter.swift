@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class PasscodeLockPresenter {
+@objc open class PasscodeLockPresenter : NSObject {
     
     fileprivate var mainWindow: UIWindow?
     

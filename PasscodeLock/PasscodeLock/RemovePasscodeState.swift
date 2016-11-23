@@ -11,7 +11,7 @@ import Foundation
 struct RemovePasscodeState: PasscodeLockStateType {
     let title: String
     let description: String
-    let isCancellableAction = false
+    let isCancellableAction = true
     var isTouchIDAllowed: Bool { return false }
     
     private var isNotificationSent = false

@@ -8,9 +8,9 @@
 
 import UIKit
 
-open class PasscodeLockViewController: UIViewController, PasscodeLockTypeDelegate {
+@objc open class PasscodeLockViewController: UIViewController, PasscodeLockTypeDelegate {
     
-    public enum LockState {
+    @objc public enum LockState:Int {
         case enter
         case set
         case change

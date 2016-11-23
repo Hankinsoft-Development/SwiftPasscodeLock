@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol PasscodeLockConfigurationType {
+@objc public protocol PasscodeLockConfigurationType {
     
     var repository: PasscodeRepositoryType { get }
     var passcodeLength: Int { get }

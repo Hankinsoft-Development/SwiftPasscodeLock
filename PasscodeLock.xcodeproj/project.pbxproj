@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A526E151DA6786200114A5E /* RemovePasscodeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A526E141DA6786200114A5E /* RemovePasscodeState.swift */; };
+		72521C521DEC9ED10073C539 /* PasscodeSignPlaceholderContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72521C511DEC9ED10073C539 /* PasscodeSignPlaceholderContainerView.swift */; };
 		7253BC671DEC99F400EEACF9 /* PasscodeTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253BC661DEC99F400EEACF9 /* PasscodeTitleLabel.swift */; };
 		7253BC691DEC9A1E00EEACF9 /* PasscodeSubtitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253BC681DEC9A1E00EEACF9 /* PasscodeSubtitleLabel.swift */; };
 		7253BC6B1DEC9A3C00EEACF9 /* PasscodeBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253BC6A1DEC9A3C00EEACF9 /* PasscodeBackgroundView.swift */; };
@@ -110,6 +111,7 @@
 
 /* Begin PBXFileReference section */
 		0A526E141DA6786200114A5E /* RemovePasscodeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemovePasscodeState.swift; sourceTree = "<group>"; };
+		72521C511DEC9ED10073C539 /* PasscodeSignPlaceholderContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeSignPlaceholderContainerView.swift; sourceTree = "<group>"; };
 		7253BC661DEC99F400EEACF9 /* PasscodeTitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeTitleLabel.swift; sourceTree = "<group>"; };
 		7253BC681DEC9A1E00EEACF9 /* PasscodeSubtitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeSubtitleLabel.swift; sourceTree = "<group>"; };
 		7253BC6A1DEC9A3C00EEACF9 /* PasscodeBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeBackgroundView.swift; sourceTree = "<group>"; };
@@ -320,6 +322,7 @@
 				7253BC661DEC99F400EEACF9 /* PasscodeTitleLabel.swift */,
 				7253BC681DEC9A1E00EEACF9 /* PasscodeSubtitleLabel.swift */,
 				7253BC6A1DEC9A3C00EEACF9 /* PasscodeBackgroundView.swift */,
+				72521C511DEC9ED10073C539 /* PasscodeSignPlaceholderContainerView.swift */,
 				C9D3DF0A1B919CE4008561EB /* PasscodeLockViewController.xib */,
 			);
 			path = Views;
@@ -566,6 +569,7 @@
 				C9DC08021B90D2BA007A4DD0 /* ConfirmPasscodeState.swift in Sources */,
 				0A526E151DA6786200114A5E /* RemovePasscodeState.swift in Sources */,
 				C9DC08121B90DE1B007A4DD0 /* PasscodeSignPlaceholderView.swift in Sources */,
+				72521C521DEC9ED10073C539 /* PasscodeSignPlaceholderContainerView.swift in Sources */,
 				C9DC07F21B90C9DE007A4DD0 /* EnterPasscodeState.swift in Sources */,
 				7253BC691DEC9A1E00EEACF9 /* PasscodeSubtitleLabel.swift in Sources */,
 				C9DC08141B90DE50007A4DD0 /* PasscodeSignButton.swift in Sources */,
